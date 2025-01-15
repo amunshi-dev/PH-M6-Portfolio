@@ -1,0 +1,91 @@
+@import url("./css-reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap");
+
+:root {
+  /* colors */
+  --clr-dark-1: #181818;
+  --clr-dark-2: #474747;
+  --clr-dark-3: #757575;
+  --clr-dark-4: #;
+  --clr-bg-primary: #fff8f3;
+  --clr-bg-secondary: #fd6e0a;
+
+  /* font-weight */
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+}
+.hide {
+  visibility: hidden;
+}
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+/* colors */
+.clr-bg-primary {
+  background-color: #fff8f3;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.flex__row {
+  flex-direction: row;
+}
+.flex__col {
+  flex-direction: column;
+}
+.flex__center--v {
+  align-items: center;
+}
+.flex__center--h {
+  justify-content: center;
+}
+.flex__center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Components */
+.btn-primary {
+  border: none;
+  padding: 1.125rem 1rem;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  background-color: #fd6e0a;
+}
+body {
+  font-family: "Open Sans", serif;
+  font-size: 1rem;
+}
+
+/* HEADER */
+
+.nav {
+  justify-content: space-between;
+  color: ;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav__logo {
+}
+.nav__logo-r {
+}
+.nav__links {
+}
