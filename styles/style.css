@@ -17,7 +17,7 @@
   --fw-800: 800;
 }
 .hide {
-  visibility: hidden;
+  display: none !important;
 }
 
 /* flex */
@@ -201,4 +201,84 @@ body {
 }
 .about__detail__value {
   font-weight: var(--fw-700);
+}
+
+/* What I Do */
+
+/* Resume */
+.resume{
+  margin: 0 230px;
+}
+.resume__container{
+  gap: 1.5rem;
+}
+.resume__title{
+  font-size: 2.1875rem;
+  font-weight: var(--fw-700);
+  text-align: center;
+  margin-bottom: 113px;
+}
+.education, .experience{
+  font-size: 1.875rem;
+  color: var(--clr-dark-2);
+  font-weight: var(--fw-700);
+}
+.resume__education>div, .resume__experience > div{
+  border-bottom: 1px solid var(--clr-dark-3);
+}
+.education__title, .experience__title{
+  font-size: 1.5625rem;
+  font-weight: var(--fw-700);
+  color: var(--clr-dark-2);
+  margin-bottom: 10px;
+}
+.education__uniTimeline, .experience__uniTimeline{
+  font-size: 1.125rem;
+  color: var(--clr-dark-3);
+  margin:0 0 1.125rem 0;
+}
+.education__description, .experience__description{
+  color: var(--clr-dark-3);
+}
+
+.resume__btn{
+  margin: 50px 0 180px;
+}
+/* Footer */
+.footer {
+  background-color: var(--clr-bg-primary);
+  padding: 130px 230px;
+  gap: 3rem;
+  justify-content: center;
+}
+.connect__contents {
+  width: 50%;
+}
+.connect__title,
+.message__title {
+  font-size: 2.125rem;
+  font-weight: var(--fw-700);
+  color: var(--clr-dark-1);
+  margin-bottom: 1rem;
+}
+.connect__discription {
+  color: var(--clr-dark-2);
+  margin-bottom: 1.5rem;
+}
+.connect__socials {
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.message__name,
+.message__email,
+.message__box {
+  padding: 18px 30px;
+  border: none;
+  width: 80%;
+  margin-bottom: 1.875rem;
+}
+.message__box {
+  height: 180px;
+  scroll-behavior: none;
 }
